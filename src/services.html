@@ -4,21 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Our Services | SwiftNest Solution</title>
+    <meta name="description" content="Comprehensive digital solutions for Cambodia — mobile apps, e-commerce, ERP systems, digital banking, and more.">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-    
+
     <header>
         <div class="container">
             <nav class="navbar">
                 <a href="index.html" class="logo">
-                    <i class="fas fa-rocket"></i>
-                    SwiftNest Solution
+                    <div class="logo-icon"><i class="fas fa-rocket"></i></div>
+                    <span>SwiftNest</span>&nbsp;Solution
                 </a>
-                <button class="mobile-menu-btn" id="mobileMenuBtn">
-                    <i class="fas fa-bars"></i>
-                </button>
                 <ul class="nav-links" id="navLinks">
                     <li><a href="index.html">Home</a></li>
                     <li><a href="about.html">About</a></li>
@@ -26,199 +24,209 @@
                     <li><a href="industries.html">Industries</a></li>
                     <li><a href="contact.html">Contact</a></li>
                 </ul>
+                <div class="nav-cta">
+                    <a href="contact.html" class="btn btn-primary btn-sm">Get Started</a>
+                </div>
+                <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle menu">
+                    <i class="fas fa-bars"></i>
+                </button>
             </nav>
         </div>
     </header>
 
     <main>
-        <div class="container">
-            <div class="page-header">
+
+        <!-- ===== PAGE HERO ===== -->
+        <section class="page-hero">
+            <div class="container">
+                <div class="breadcrumb">
+                    <a href="index.html">Home</a>
+                    <i class="fas fa-chevron-right"></i>
+                    <span>Services</span>
+                </div>
                 <h1>Our Services</h1>
-                <p>Comprehensive digital solutions tailored for Cambodia's growing market</p>
+                <p>Comprehensive digital solutions tailored for Cambodia's growing market — from mobile apps to enterprise ERP systems.</p>
             </div>
-            
-            <div class="service-filters">
-                <button class="filter-btn active" data-filter="all">All Services</button>
-                <button class="filter-btn" data-filter="tech">Technology</button>
-                <button class="filter-btn" data-filter="business">Business</button>
-                <button class="filter-btn" data-filter="education">Education</button>
-                <button class="filter-btn" data-filter="finance">Finance</button>
-            </div>
+        </section>
 
-            <div class="services-wrapper">
-                <div class="services-grid">
-                    <div class="service-card" data-category="tech">
-                        <i class="fas fa-mobile-alt"></i>
+        <!-- ===== SERVICES GRID ===== -->
+        <section style="background:var(--light);">
+            <div class="container">
+                <div class="section-header centered">
+                    <span class="section-label"><i class="fas fa-th-large"></i> What We Offer</span>
+                    <h2 class="section-title fade-up">12 Digital Solutions</h2>
+                    <p class="section-subtitle fade-up fade-up-delay-1">Filter by category to find the right solution for your business needs.</p>
+                </div>
+
+                <div class="service-filters fade-up">
+                    <button class="filter-btn active" data-filter="all">
+                        <i class="fas fa-th"></i> All Services
+                    </button>
+                    <button class="filter-btn" data-filter="tech">
+                        <i class="fas fa-laptop-code"></i> Technology
+                    </button>
+                    <button class="filter-btn" data-filter="business">
+                        <i class="fas fa-briefcase"></i> Business
+                    </button>
+                    <button class="filter-btn" data-filter="education">
+                        <i class="fas fa-graduation-cap"></i> Education
+                    </button>
+                    <button class="filter-btn" data-filter="finance">
+                        <i class="fas fa-landmark"></i> Finance
+                    </button>
+                </div>
+
+                <div class="services-full-grid">
+                    <div class="service-card-full fade-up" data-category="tech">
+                        <span class="service-tag tech"><i class="fas fa-laptop-code"></i> Technology</span>
+                        <div class="service-icon"><i class="fas fa-mobile-alt"></i></div>
                         <h3>Mobile App Development</h3>
-                        <p>Custom mobile applications optimized for Cambodia's most popular platforms - Android and iOS, with Khmer language support.</p>
-                        <div class="service-pricing">
-                            <p class="price-label">Starting from</p>
-                            <p class="price">Contact for Pricing</p>
-                            <a href="contact.html" class="btn">Get Quote</a>
-                        </div>
+                        <p>Custom Android & iOS applications optimized for Cambodia's most popular platforms, with full Khmer language support and local payment gateway integration.</p>
+                        <a href="contact.html" class="btn btn-outline btn-sm">Get a Quote <i class="fas fa-arrow-right"></i></a>
                     </div>
 
-                    <div class="service-card" data-category="business">
-                        <i class="fas fa-shopping-cart"></i>
+                    <div class="service-card-full fade-up fade-up-delay-1" data-category="business">
+                        <span class="service-tag business"><i class="fas fa-briefcase"></i> Business</span>
+                        <div class="service-icon"><i class="fas fa-shopping-cart"></i></div>
                         <h3>E-Commerce Solutions</h3>
-                        <p>Built-in support for local payment methods including ABA, Wing, and Pi Pay, perfect for Cambodia's growing online retail market.</p>
-                        <div class="service-pricing">
-                            <p class="price-label">Starting from</p>
-                            <p class="price">Contact for Pricing</p>
-                            <a href="contact.html" class="btn">Get Quote</a>
-                        </div>
+                        <p>Full online store setup with built-in support for ABA, Wing, Pi Pay, and Bakong QR, perfect for Cambodia's growing online retail and delivery market.</p>
+                        <a href="contact.html" class="btn btn-outline btn-sm">Get a Quote <i class="fas fa-arrow-right"></i></a>
                     </div>
 
-                    <div class="service-card" data-category="tech">
-                        <i class="fas fa-language"></i>
+                    <div class="service-card-full fade-up fade-up-delay-2" data-category="tech">
+                        <span class="service-tag tech"><i class="fas fa-laptop-code"></i> Technology</span>
+                        <div class="service-icon"><i class="fas fa-language"></i></div>
                         <h3>Multilingual Websites</h3>
-                        <p>Responsive websites with Khmer and English language options, optimized for local SEO and Cambodia's internet infrastructure.</p>
-                        <div class="service-pricing">
-                            <p class="price-label">Starting from</p>
-                            <p class="price">Contact for Pricing</p>
-                            <a href="contact.html" class="btn">Get Quote</a>
-                        </div>
+                        <p>Responsive websites with Khmer and English language options, optimized for local SEO and Cambodia's internet infrastructure for maximum reach.</p>
+                        <a href="contact.html" class="btn btn-outline btn-sm">Get a Quote <i class="fas fa-arrow-right"></i></a>
                     </div>
 
-                    <div class="service-card" data-category="finance">
-                        <i class="fas fa-hand-holding-usd"></i>
+                    <div class="service-card-full fade-up" data-category="finance">
+                        <span class="service-tag finance"><i class="fas fa-landmark"></i> Finance</span>
+                        <div class="service-icon"><i class="fas fa-hand-holding-usd"></i></div>
                         <h3>Digital Banking Solutions</h3>
-                        <p>Secure financial technology solutions tailored for Cambodia's growing digital banking and mobile money sector.</p>
-                        <div class="service-pricing">
-                            <p class="price-label">Starting from</p>
-                            <p class="price">Contact for Pricing</p>
-                            <a href="contact.html" class="btn">Get Quote</a>
-                        </div>
+                        <p>Secure financial technology solutions tailored for Cambodia's growing digital banking and mobile money sector, with NBC compliance built in.</p>
+                        <a href="contact.html" class="btn btn-outline btn-sm">Get a Quote <i class="fas fa-arrow-right"></i></a>
                     </div>
 
-                    <div class="service-card" data-category="business">
-                        <i class="fas fa-hotel"></i>
+                    <div class="service-card-full fade-up fade-up-delay-1" data-category="business">
+                        <span class="service-tag business"><i class="fas fa-briefcase"></i> Business</span>
+                        <div class="service-icon"><i class="fas fa-hotel"></i></div>
                         <h3>Hospitality Tech Solutions</h3>
-                        <p>Digital systems for hotels, restaurants, and tourism businesses, supporting Cambodia's vital hospitality sector.</p>
-                        <div class="service-pricing">
-                            <p class="price-label">Starting from</p>
-                            <p class="price">Contact for Pricing</p>
-                            <a href="contact.html" class="btn">Get Quote</a>
-                        </div>
+                        <p>Digital systems for hotels, restaurants, and tourism businesses — supporting Cambodia's vital hospitality sector with booking, POS, and guest management.</p>
+                        <a href="contact.html" class="btn btn-outline btn-sm">Get a Quote <i class="fas fa-arrow-right"></i></a>
                     </div>
 
-                    <div class="service-card" data-category="business">
-                        <i class="fas fa-chart-line"></i>
-                        <h3>Business Management Systems</h3>
-                        <p>Custom ERP and POS systems designed for Cambodian SMEs, with local tax and accounting compliance.</p>
-                        <div class="service-pricing">
-                            <p class="price-label">Starting from</p>
-                            <p class="price">Contact for Pricing</p>
-                            <a href="contact.html" class="btn">Get Quote</a>
-                        </div>
+                    <div class="service-card-full fade-up fade-up-delay-2" data-category="business">
+                        <span class="service-tag business"><i class="fas fa-briefcase"></i> Business</span>
+                        <div class="service-icon"><i class="fas fa-chart-line"></i></div>
+                        <h3>Business Management ERP</h3>
+                        <p>Custom ERP and POS systems designed for Cambodian SMEs, with local tax and accounting compliance, bilingual interfaces, and real-time dashboards.</p>
+                        <a href="contact.html" class="btn btn-outline btn-sm">Get a Quote <i class="fas fa-arrow-right"></i></a>
                     </div>
 
-                    <div class="service-card" data-category="tech">
-                        <i class="fas fa-qrcode"></i>
+                    <div class="service-card-full fade-up" data-category="tech">
+                        <span class="service-tag tech"><i class="fas fa-laptop-code"></i> Technology</span>
+                        <div class="service-icon"><i class="fas fa-qrcode"></i></div>
                         <h3>QR Payment Integration</h3>
-                        <p>Seamless integration of Bakong, ABA PAY, and other popular QR payment systems used throughout Cambodia.</p>
-                        <div class="service-pricing">
-                            <p class="price-label">Starting from</p>
-                            <p class="price">Contact for Pricing</p>
-                            <a href="contact.html" class="btn">Get Quote</a>
-                        </div>
+                        <p>Seamless integration of Bakong, ABA PAY, Wing, and other popular QR payment systems widely used throughout Cambodia — quick setup, reliable uptime.</p>
+                        <a href="contact.html" class="btn btn-outline btn-sm">Get a Quote <i class="fas fa-arrow-right"></i></a>
                     </div>
 
-                    <div class="service-card" data-category="education">
-                        <i class="fas fa-graduation-cap"></i>
+                    <div class="service-card-full fade-up fade-up-delay-1" data-category="education">
+                        <span class="service-tag education"><i class="fas fa-graduation-cap"></i> Education</span>
+                        <div class="service-icon"><i class="fas fa-graduation-cap"></i></div>
                         <h3>E-Learning Platforms</h3>
-                        <p>Custom learning management systems with Khmer language support for schools, universities, and training centers.</p>
-                        <div class="service-pricing">
-                            <p class="price-label">Starting from</p>
-                            <p class="price">Contact for Pricing</p>
-                            <a href="contact.html" class="btn">Get Quote</a>
-                        </div>
+                        <p>Custom learning management systems with Khmer language support for schools, universities, and corporate training centers across Cambodia.</p>
+                        <a href="contact.html" class="btn btn-outline btn-sm">Get a Quote <i class="fas fa-arrow-right"></i></a>
                     </div>
 
-                    <div class="service-card" data-category="business">
-                        <i class="fas fa-motorcycle"></i>
+                    <div class="service-card-full fade-up fade-up-delay-2" data-category="business">
+                        <span class="service-tag business"><i class="fas fa-briefcase"></i> Business</span>
+                        <div class="service-icon"><i class="fas fa-motorcycle"></i></div>
                         <h3>Delivery Management</h3>
-                        <p>Logistics solutions for delivery services, perfect for food delivery and e-commerce fulfillment in Phnom Penh and beyond.</p>
-                        <div class="service-pricing">
-                            <p class="price-label">Starting from</p>
-                            <p class="price">Contact for Pricing</p>
-                            <a href="contact.html" class="btn">Get Quote</a>
-                        </div>
+                        <p>Logistics and delivery tracking solutions for food delivery and e-commerce fulfillment in Phnom Penh, Siem Reap, and major Cambodian cities.</p>
+                        <a href="contact.html" class="btn btn-outline btn-sm">Get a Quote <i class="fas fa-arrow-right"></i></a>
                     </div>
 
-                    <div class="service-card" data-category="business">
-                        <i class="fas fa-store"></i>
+                    <div class="service-card-full fade-up" data-category="business">
+                        <span class="service-tag business"><i class="fas fa-briefcase"></i> Business</span>
+                        <div class="service-icon"><i class="fas fa-store"></i></div>
                         <h3>POS Systems</h3>
-                        <p>Modern point-of-sale systems with inventory management, supporting both English and Khmer interfaces.</p>
-                        <div class="service-pricing">
-                            <p class="price-label">Starting from</p>
-                            <p class="price">Contact for Pricing</p>
-                            <a href="contact.html" class="btn">Get Quote</a>
-                        </div>
+                        <p>Modern point-of-sale systems with inventory management, staff roles, and sales reporting — supporting both English and Khmer interfaces for retail chains.</p>
+                        <a href="contact.html" class="btn btn-outline btn-sm">Get a Quote <i class="fas fa-arrow-right"></i></a>
                     </div>
 
-                    <div class="service-card" data-category="education">
-                        <i class="fas fa-calendar-check"></i>
+                    <div class="service-card-full fade-up fade-up-delay-1" data-category="education">
+                        <span class="service-tag education"><i class="fas fa-graduation-cap"></i> Education</span>
+                        <div class="service-icon"><i class="fas fa-calendar-check"></i></div>
                         <h3>Booking Systems</h3>
-                        <p>Online booking solutions for Cambodia's tourism sector, including temples, tours, and hospitality services.</p>
-                        <div class="service-pricing">
-                            <p class="price-label">Starting from</p>
-                            <p class="price">Contact for Pricing</p>
-                            <a href="contact.html" class="btn">Get Quote</a>
-                        </div>
+                        <p>Online booking solutions for Cambodia's tourism sector, including temple tours, hotel reservations, restaurant bookings, and activity scheduling.</p>
+                        <a href="contact.html" class="btn btn-outline btn-sm">Get a Quote <i class="fas fa-arrow-right"></i></a>
                     </div>
 
-                    <div class="service-card" data-category="tech">
-                        <i class="fas fa-tools"></i>
+                    <div class="service-card-full fade-up fade-up-delay-2" data-category="tech">
+                        <span class="service-tag tech"><i class="fas fa-laptop-code"></i> Technology</span>
+                        <div class="service-icon"><i class="fas fa-server"></i></div>
                         <h3>IT Infrastructure</h3>
-                        <p>Setting up and maintaining modern IT infrastructure for businesses, including cloud solutions and cybersecurity.</p>
-                        <div class="service-pricing">
-                            <p class="price-label">Starting from</p>
-                            <p class="price">Contact for Pricing</p>
-                            <a href="contact.html" class="btn">Get Quote</a>
-                        </div>
+                        <p>Setting up and maintaining modern IT infrastructure — cloud migration, cybersecurity audits, network setup, and ongoing technical support for businesses.</p>
+                        <a href="contact.html" class="btn btn-outline btn-sm">Get a Quote <i class="fas fa-arrow-right"></i></a>
                     </div>
                 </div>
             </div>
+        </section>
 
-            <section class="testimonials">
-                <h2>What Our Clients Say</h2>
-                <div class="testimonial-grid">
-                    <div class="testimonial-card">
-                        <div class="quote-icon">
-                            <i class="fas fa-quote-right"></i>
+        <!-- ===== TESTIMONIALS ===== -->
+        <section class="testimonials-section">
+            <div class="container">
+                <div class="section-header centered">
+                    <span class="section-label"><i class="fas fa-quote-left"></i> Testimonials</span>
+                    <h2 class="section-title fade-up">What Our Clients Say</h2>
+                    <p class="section-subtitle fade-up fade-up-delay-1">Trusted by businesses across Cambodia — here's what they have to say about working with us.</p>
+                </div>
+
+                <div class="testimonials-grid">
+                    <div class="testimonial-card fade-up">
+                        <div class="testimonial-stars">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
                         </div>
-                        <p>"SwiftNest helped transform our business with their excellent e-commerce solution. Their understanding of the local market made all the difference."</p>
-                        <div class="client-info">
-                            <img src="images/client1.png" alt="Client">
+                        <p class="testimonial-text">"SwiftNest helped transform our business with their excellent e-commerce solution. Their understanding of the local market and payment systems made all the difference."</p>
+                        <div class="testimonial-author">
+                            <div class="testimonial-avatar">
+                                <img src="images/client1.png" alt="Angkor Mart" onerror="this.parentElement.textContent='AM'">
+                            </div>
                             <div>
                                 <h4>Angkor Mart</h4>
                                 <p>Siem Reap, Cambodia</p>
                             </div>
                         </div>
                     </div>
-                    
-                    <div class="testimonial-card">
-                        <div class="quote-icon">
-                            <i class="fas fa-quote-right"></i>
+
+                    <div class="testimonial-card fade-up fade-up-delay-1">
+                        <div class="testimonial-stars">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
                         </div>
-                        <p>"The bilingual support and local payment integration made our digital transformation seamless. Highly recommended!"</p>
-                        <div class="client-info">
-                            <img src="images/client2.png" alt="Client">
+                        <p class="testimonial-text">"The bilingual support and local payment integration made our digital transformation seamless. Our booking rates increased by 40% within the first month. Highly recommended!"</p>
+                        <div class="testimonial-author">
+                            <div class="testimonial-avatar">
+                                <img src="images/client2.png" alt="Royal Palace Hotel" onerror="this.parentElement.textContent='RP'">
+                            </div>
                             <div>
                                 <h4>Royal Palace Hotel</h4>
                                 <p>Phnom Penh, Cambodia</p>
                             </div>
                         </div>
                     </div>
-                    
-                    <div class="testimonial-card">
-                        <div class="quote-icon">
-                            <i class="fas fa-quote-right"></i>
+
+                    <div class="testimonial-card fade-up fade-up-delay-2">
+                        <div class="testimonial-stars">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
                         </div>
-                        <p>"Their POS system revolutionized how we manage our restaurant chain. The Khmer language support is excellent."</p>
-                        <div class="client-info">
-                            <img src="images/client3.png" alt="Client">
+                        <p class="testimonial-text">"Their POS system revolutionized how we manage our restaurant chain across 5 locations. The Khmer language support and real-time reporting are excellent."</p>
+                        <div class="testimonial-author">
+                            <div class="testimonial-avatar">
+                                <img src="images/client3.png" alt="Khmer Kitchen Group" onerror="this.parentElement.textContent='KK'">
+                            </div>
                             <div>
                                 <h4>Khmer Kitchen Group</h4>
                                 <p>Phnom Penh, Cambodia</p>
@@ -226,78 +234,98 @@
                         </div>
                     </div>
                 </div>
-            </section>
+            </div>
+        </section>
 
-            <section class="cta-section">
-                <div class="container">
-                    <div class="cta-content">
-                        <h2>Ready to Transform Your Business?</h2>
-                        <p>Join hundreds of successful businesses in Cambodia that trust SwiftNest Solution</p>
-                        <div class="cta-features">
-                            <div class="feature">
-                                <i class="fas fa-check-circle"></i>
-                                <span>Free Initial Consultation</span>
-                            </div>
-                            <div class="feature">
-                                <i class="fas fa-check-circle"></i>
-                                <span>Bilingual Support</span>
-                            </div>
-                            <div class="feature">
-                                <i class="fas fa-check-circle"></i>
-                                <span>Flexible Payment Options</span>
-                            </div>
-                        </div>
-                        <div class="cta-buttons">
-                            <a href="contact.html" class="btn btn-primary">
-                                <i class="fas fa-calendar-check"></i>
-                                Schedule a Consultation
-                            </a>
-                            <a href="tel:+855882175436" class="btn btn-secondary">
-                                <i class="fas fa-phone"></i>
-                                Call Us: +855 88 21 75 436
-                            </a>
-                        </div>
+        <!-- ===== CTA ===== -->
+        <section class="cta-section">
+            <div class="container">
+                <div class="cta-inner">
+                    <h2>Ready to Transform Your Business?</h2>
+                    <p>Join hundreds of successful businesses in Cambodia that trust SwiftNest Solution. Get a free consultation today.</p>
+                    <div class="cta-pills">
+                        <div class="cta-pill"><i class="fas fa-check-circle"></i> Free Initial Consultation</div>
+                        <div class="cta-pill"><i class="fas fa-check-circle"></i> Bilingual Support</div>
+                        <div class="cta-pill"><i class="fas fa-check-circle"></i> Flexible Payment Options</div>
+                    </div>
+                    <div class="cta-actions">
+                        <a href="contact.html" class="btn btn-white btn-lg">
+                            <i class="fas fa-calendar-check"></i> Schedule a Consultation
+                        </a>
+                        <a href="tel:+855882175436" class="btn btn-ghost btn-lg">
+                            <i class="fas fa-phone"></i> +855 88 21 75 436
+                        </a>
                     </div>
                 </div>
-            </section>
-        </div>
+            </div>
+        </section>
+
     </main>
 
     <footer>
         <div class="container">
-            <div class="footer-content">
-                <div class="footer-section">
-                    <h3>SwiftNest Solution</h3>
-                    <p>Transforming businesses through innovative digital solutions and technology services.</p>
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="index.html" class="logo">
+                        <div class="logo-icon"><i class="fas fa-rocket"></i></div>
+                        <span>SwiftNest</span>&nbsp;Solution
+                    </a>
+                    <p>Transforming Cambodian businesses through innovative digital solutions and technology services since 2015.</p>
                     <div class="social-links">
-                        <a href="#"><i class="fab fa-facebook"></i></a>
-                        <a href="#"><i class="fab fa-twitter"></i></a>
-                        <a href="#"><i class="fab fa-linkedin"></i></a>
-                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
                     </div>
                 </div>
-                <div class="footer-section">
-                    <h3>Quick Links</h3>
-                    <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="services.html">Services</a></li>
-                        <li><a href="industries.html">Industries</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                    </ul>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <div class="footer-links">
+                        <a href="index.html">Home</a>
+                        <a href="about.html">About Us</a>
+                        <a href="services.html">Our Services</a>
+                        <a href="industries.html">Industries</a>
+                        <a href="contact.html">Contact</a>
+                    </div>
                 </div>
-                <div class="footer-section">
-                    <h3>Contact Info</h3>
-                    <p><i class="fas fa-phone"></i> +855 88 21 75 436</p>
-                    <p><i class="fas fa-envelope"></i> info@swiftnest.com.kh</p>
-                    <p><i class="fas fa-location-dot"></i> Street 598, Sangkat Tuol Sangke<br>Khan Russey Keo, Phnom Penh, Cambodia</p>
+                <div class="footer-col">
+                    <h4>Services</h4>
+                    <div class="footer-links">
+                        <a href="services.html">Mobile Apps</a>
+                        <a href="services.html">E-Commerce</a>
+                        <a href="services.html">ERP Systems</a>
+                        <a href="services.html">Digital Banking</a>
+                        <a href="services.html">IT Infrastructure</a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>Contact Info</h4>
+                    <div class="footer-contact-list">
+                        <div class="footer-contact-item">
+                            <i class="fas fa-phone"></i>
+                            <span>+855 88 21 75 436</span>
+                        </div>
+                        <div class="footer-contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>info@swiftnest.com.kh</span>
+                        </div>
+                        <div class="footer-contact-item">
+                            <i class="fas fa-location-dot"></i>
+                            <span>Street 598, Sangkat Tuol Sangke, Khan Russey Keo, Phnom Penh, Cambodia</span>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="footer-bottom">
                 <p>&copy; 2025 SwiftNest Solution. All rights reserved.</p>
+                <div class="footer-bottom-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
             </div>
         </div>
     </footer>
+
     <script src="js/script.js"></script>
 </body>
 </html>

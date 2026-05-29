@@ -3,22 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Industries | SwiftNest Solution</title>
+    <title>Industries We Serve | SwiftNest Solution</title>
+    <meta name="description" content="SwiftNest Solution serves hospitality, retail, education, banking, agriculture, and manufacturing sectors across Cambodia.">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-    
+
     <header>
         <div class="container">
             <nav class="navbar">
                 <a href="index.html" class="logo">
-                    <i class="fas fa-rocket"></i>
-                    SwiftNest Solution
+                    <div class="logo-icon"><i class="fas fa-rocket"></i></div>
+                    <span>SwiftNest</span>&nbsp;Solution
                 </a>
-                <button class="mobile-menu-btn" id="mobileMenuBtn">
-                    <i class="fas fa-bars"></i>
-                </button>
                 <ul class="nav-links" id="navLinks">
                     <li><a href="index.html">Home</a></li>
                     <li><a href="about.html">About</a></li>
@@ -26,140 +24,273 @@
                     <li><a href="industries.html">Industries</a></li>
                     <li><a href="contact.html">Contact</a></li>
                 </ul>
+                <div class="nav-cta">
+                    <a href="contact.html" class="btn btn-primary btn-sm">Get Started</a>
+                </div>
+                <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle menu">
+                    <i class="fas fa-bars"></i>
+                </button>
             </nav>
         </div>
     </header>
 
     <main>
-        <div class="container">
-            <div class="page-header">
+
+        <!-- ===== PAGE HERO ===== -->
+        <section class="page-hero">
+            <div class="container">
+                <div class="breadcrumb">
+                    <a href="index.html">Home</a>
+                    <i class="fas fa-chevron-right"></i>
+                    <span>Industries</span>
+                </div>
                 <h1>Industries We Serve</h1>
-                <p>Tailored digital solutions for Cambodia's growing sectors</p>
+                <p>Tailored digital solutions for Cambodia's fastest-growing sectors — from tourism to fintech, retail to agriculture.</p>
             </div>
-            
-            <div class="industries-grid">
-                <div class="industry-card">
-                    <div class="industry-icon">
-                        <i class="fas fa-hotel"></i>
-                    </div>
-                    <h3>Hospitality & Tourism</h3>
-                    <p>Digital solutions for hotels, restaurants, and tourism businesses around Angkor Wat and beyond.</p>
-                    <ul class="industry-features">
-                        <li><i class="fas fa-check"></i> Booking systems</li>
-                        <li><i class="fas fa-check"></i> POS solutions</li>
-                        <li><i class="fas fa-check"></i> Guest management</li>
-                    </ul>
-                    <a href="contact.html" class="btn">Learn More</a>
+        </section>
+
+        <!-- ===== INDUSTRIES GRID ===== -->
+        <section style="background:var(--light);">
+            <div class="container">
+                <div class="section-header centered">
+                    <span class="section-label"><i class="fas fa-industry"></i> Sectors We Cover</span>
+                    <h2 class="section-title fade-up">6 Key Industries</h2>
+                    <p class="section-subtitle fade-up fade-up-delay-1">We bring deep domain knowledge to every engagement, ensuring our technology fits your industry's unique needs.</p>
                 </div>
 
-                <div class="industry-card">
-                    <div class="industry-icon">
-                        <i class="fas fa-shopping-cart"></i>
-                    </div>
-                    <h3>Retail & E-commerce</h3>
-                    <p>Modern retail solutions with local payment integration and bilingual support.</p>
-                    <ul class="industry-features">
-                        <li><i class="fas fa-check"></i> Online stores</li>
-                        <li><i class="fas fa-check"></i> Inventory management</li>
-                        <li><i class="fas fa-check"></i> Payment integration</li>
-                    </ul>
-                    <a href="contact.html" class="btn">Learn More</a>
-                </div>
+                <div class="industries-grid">
 
-                <div class="industry-card">
-                    <div class="industry-icon">
-                        <i class="fas fa-graduation-cap"></i>
+                    <div class="industry-card fade-up">
+                        <div class="industry-icon"><i class="fas fa-hotel"></i></div>
+                        <h3>Hospitality & Tourism</h3>
+                        <p>Digital solutions for hotels, restaurants, and tourism businesses around Angkor Wat and beyond — helping Cambodia's #1 industry attract and serve more visitors.</p>
+                        <div class="industry-features">
+                            <div class="industry-feature-item">
+                                <i class="fas fa-check-circle"></i>
+                                Online booking & reservation systems
+                            </div>
+                            <div class="industry-feature-item">
+                                <i class="fas fa-check-circle"></i>
+                                POS & table management for restaurants
+                            </div>
+                            <div class="industry-feature-item">
+                                <i class="fas fa-check-circle"></i>
+                                Guest management & loyalty programs
+                            </div>
+                        </div>
+                        <a href="contact.html" class="btn btn-primary btn-sm">
+                            Explore Solution <i class="fas fa-arrow-right"></i>
+                        </a>
                     </div>
-                    <h3>Education</h3>
-                    <p>Digital learning platforms for schools and universities in Cambodia.</p>
-                    <ul class="industry-features">
-                        <li><i class="fas fa-check"></i> Learning management</li>
-                        <li><i class="fas fa-check"></i> Student portals</li>
-                        <li><i class="fas fa-check"></i> Bilingual content</li>
-                    </ul>
-                    <a href="contact.html" class="btn">Learn More</a>
-                </div>
 
-                <div class="industry-card">
-                    <div class="industry-icon">
-                        <i class="fas fa-building-columns"></i>
+                    <div class="industry-card fade-up fade-up-delay-1">
+                        <div class="industry-icon"><i class="fas fa-shopping-cart"></i></div>
+                        <h3>Retail & E-Commerce</h3>
+                        <p>Modern retail solutions with ABA, Wing, and Bakong payment integration, bilingual support, and smart inventory management for Cambodian retail businesses.</p>
+                        <div class="industry-features">
+                            <div class="industry-feature-item">
+                                <i class="fas fa-check-circle"></i>
+                                Online storefront & product catalog
+                            </div>
+                            <div class="industry-feature-item">
+                                <i class="fas fa-check-circle"></i>
+                                Smart inventory management system
+                            </div>
+                            <div class="industry-feature-item">
+                                <i class="fas fa-check-circle"></i>
+                                Local & international payment integration
+                            </div>
+                        </div>
+                        <a href="contact.html" class="btn btn-primary btn-sm">
+                            Explore Solution <i class="fas fa-arrow-right"></i>
+                        </a>
                     </div>
-                    <h3>Banking & Finance</h3>
-                    <p>Secure financial technology solutions for Cambodia's growing fintech sector.</p>
-                    <ul class="industry-features">
-                        <li><i class="fas fa-check"></i> Mobile banking</li>
-                        <li><i class="fas fa-check"></i> Payment systems</li>
-                        <li><i class="fas fa-check"></i> Security compliance</li>
-                    </ul>
-                    <a href="contact.html" class="btn">Learn More</a>
-                </div>
 
-                <div class="industry-card">
-                    <div class="industry-icon">
-                        <i class="fas fa-leaf"></i>
+                    <div class="industry-card fade-up fade-up-delay-2">
+                        <div class="industry-icon"><i class="fas fa-graduation-cap"></i></div>
+                        <h3>Education</h3>
+                        <p>Digital learning platforms and school management systems for Cambodia's schools, universities, and private training centers — all with Khmer language support.</p>
+                        <div class="industry-features">
+                            <div class="industry-feature-item">
+                                <i class="fas fa-check-circle"></i>
+                                Learning management system (LMS)
+                            </div>
+                            <div class="industry-feature-item">
+                                <i class="fas fa-check-circle"></i>
+                                Student portals & attendance tracking
+                            </div>
+                            <div class="industry-feature-item">
+                                <i class="fas fa-check-circle"></i>
+                                Bilingual Khmer & English content
+                            </div>
+                        </div>
+                        <a href="contact.html" class="btn btn-primary btn-sm">
+                            Explore Solution <i class="fas fa-arrow-right"></i>
+                        </a>
                     </div>
-                    <h3>Agriculture</h3>
-                    <p>Smart farming solutions for Cambodia's agricultural sector.</p>
-                    <ul class="industry-features">
-                        <li><i class="fas fa-check"></i> Crop management</li>
-                        <li><i class="fas fa-check"></i> Supply chain</li>
-                        <li><i class="fas fa-check"></i> Market connection</li>
-                    </ul>
-                    <a href="contact.html" class="btn">Learn More</a>
-                </div>
 
-                <div class="industry-card">
-                    <div class="industry-icon">
-                        <i class="fas fa-industry"></i>
+                    <div class="industry-card fade-up">
+                        <div class="industry-icon"><i class="fas fa-building-columns"></i></div>
+                        <h3>Banking & Finance</h3>
+                        <p>Secure financial technology solutions for Cambodia's growing fintech sector — from mobile banking apps to QR payment systems with full NBC compliance.</p>
+                        <div class="industry-features">
+                            <div class="industry-feature-item">
+                                <i class="fas fa-check-circle"></i>
+                                Mobile banking & digital wallet apps
+                            </div>
+                            <div class="industry-feature-item">
+                                <i class="fas fa-check-circle"></i>
+                                Bakong & QR payment systems
+                            </div>
+                            <div class="industry-feature-item">
+                                <i class="fas fa-check-circle"></i>
+                                NBC-compliant security standards
+                            </div>
+                        </div>
+                        <a href="contact.html" class="btn btn-primary btn-sm">
+                            Explore Solution <i class="fas fa-arrow-right"></i>
+                        </a>
                     </div>
-                    <h3>Manufacturing</h3>
-                    <p>Digital transformation for Cambodia's manufacturing industry.</p>
-                    <ul class="industry-features">
-                        <li><i class="fas fa-check"></i> Production management</li>
-                        <li><i class="fas fa-check"></i> Quality control</li>
-                        <li><i class="fas fa-check"></i> Resource planning</li>
-                    </ul>
-                    <a href="contact.html" class="btn">Learn More</a>
+
+                    <div class="industry-card fade-up fade-up-delay-1">
+                        <div class="industry-icon"><i class="fas fa-leaf"></i></div>
+                        <h3>Agriculture</h3>
+                        <p>Smart farming and agri-tech solutions for Cambodia's agricultural sector — connecting farmers to markets, improving supply chain visibility, and modernizing crop management.</p>
+                        <div class="industry-features">
+                            <div class="industry-feature-item">
+                                <i class="fas fa-check-circle"></i>
+                                Crop & farm management platforms
+                            </div>
+                            <div class="industry-feature-item">
+                                <i class="fas fa-check-circle"></i>
+                                Supply chain & logistics tracking
+                            </div>
+                            <div class="industry-feature-item">
+                                <i class="fas fa-check-circle"></i>
+                                Farmer-to-market marketplace app
+                            </div>
+                        </div>
+                        <a href="contact.html" class="btn btn-primary btn-sm">
+                            Explore Solution <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+
+                    <div class="industry-card fade-up fade-up-delay-2">
+                        <div class="industry-icon"><i class="fas fa-industry"></i></div>
+                        <h3>Manufacturing</h3>
+                        <p>Digital transformation for Cambodia's manufacturing industry — production tracking, quality control systems, and resource planning tools built for factory-floor realities.</p>
+                        <div class="industry-features">
+                            <div class="industry-feature-item">
+                                <i class="fas fa-check-circle"></i>
+                                Production management & tracking
+                            </div>
+                            <div class="industry-feature-item">
+                                <i class="fas fa-check-circle"></i>
+                                Quality control & compliance tools
+                            </div>
+                            <div class="industry-feature-item">
+                                <i class="fas fa-check-circle"></i>
+                                ERP & resource planning systems
+                            </div>
+                        </div>
+                        <a href="contact.html" class="btn btn-primary btn-sm">
+                            Explore Solution <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+
                 </div>
             </div>
-        </div>
+        </section>
+
+        <!-- ===== CTA ===== -->
+        <section class="cta-section">
+            <div class="container">
+                <div class="cta-inner">
+                    <h2>Don't See Your Industry?</h2>
+                    <p>We work across all sectors of Cambodia's economy. If your industry isn't listed, reach out — we'd love to discuss a custom solution for your specific needs.</p>
+                    <div class="cta-pills">
+                        <div class="cta-pill"><i class="fas fa-check-circle"></i> Custom Solutions Available</div>
+                        <div class="cta-pill"><i class="fas fa-check-circle"></i> Free Needs Assessment</div>
+                        <div class="cta-pill"><i class="fas fa-check-circle"></i> Fast Turnaround</div>
+                    </div>
+                    <div class="cta-actions">
+                        <a href="contact.html" class="btn btn-white btn-lg">
+                            <i class="fas fa-envelope"></i> Talk to Our Team
+                        </a>
+                        <a href="services.html" class="btn btn-ghost btn-lg">
+                            <i class="fas fa-th-large"></i> View All Services
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
     </main>
 
     <footer>
         <div class="container">
-            <div class="footer-content">
-                <div class="footer-section">
-                    <h3>SwiftNest Solution</h3>
-                    <p>Transforming businesses through innovative digital solutions and technology services.</p>
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="index.html" class="logo">
+                        <div class="logo-icon"><i class="fas fa-rocket"></i></div>
+                        <span>SwiftNest</span>&nbsp;Solution
+                    </a>
+                    <p>Transforming Cambodian businesses through innovative digital solutions and technology services since 2015.</p>
                     <div class="social-links">
-                        <a href="#"><i class="fab fa-facebook"></i></a>
-                        <a href="#"><i class="fab fa-twitter"></i></a>
-                        <a href="#"><i class="fab fa-linkedin"></i></a>
-                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
                     </div>
                 </div>
-                <div class="footer-section">
-                    <h3>Quick Links</h3>
-                    <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="services.html">Services</a></li>
-                        <li><a href="industries.html">Industries</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                    </ul>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <div class="footer-links">
+                        <a href="index.html">Home</a>
+                        <a href="about.html">About Us</a>
+                        <a href="services.html">Our Services</a>
+                        <a href="industries.html">Industries</a>
+                        <a href="contact.html">Contact</a>
+                    </div>
                 </div>
-                <div class="footer-section">
-                    <h3>Contact Info</h3>
-                    <p><i class="fas fa-phone"></i> +855 88 21 75 436</p>
-                    <p><i class="fas fa-envelope"></i> info@swiftnest.com.kh</p>
-                    <p><i class="fas fa-location-dot"></i> Street 598, Sangkat Tuol Sangke<br>Khan Russey Keo, Phnom Penh, Cambodia</p>
+                <div class="footer-col">
+                    <h4>Services</h4>
+                    <div class="footer-links">
+                        <a href="services.html">Mobile Apps</a>
+                        <a href="services.html">E-Commerce</a>
+                        <a href="services.html">ERP Systems</a>
+                        <a href="services.html">Digital Banking</a>
+                        <a href="services.html">IT Infrastructure</a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>Contact Info</h4>
+                    <div class="footer-contact-list">
+                        <div class="footer-contact-item">
+                            <i class="fas fa-phone"></i>
+                            <span>+855 88 21 75 436</span>
+                        </div>
+                        <div class="footer-contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>info@swiftnest.com.kh</span>
+                        </div>
+                        <div class="footer-contact-item">
+                            <i class="fas fa-location-dot"></i>
+                            <span>Street 598, Sangkat Tuol Sangke, Khan Russey Keo, Phnom Penh, Cambodia</span>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="footer-bottom">
                 <p>&copy; 2025 SwiftNest Solution. All rights reserved.</p>
+                <div class="footer-bottom-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
             </div>
         </div>
     </footer>
+
     <script src="js/script.js"></script>
 </body>
 </html>

@@ -4,21 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Us | SwiftNest Solution</title>
+    <meta name="description" content="Learn about SwiftNest Solution — Cambodia's leading digital transformation partner since 2015.">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-    
+
     <header>
         <div class="container">
             <nav class="navbar">
                 <a href="index.html" class="logo">
-                    <i class="fas fa-rocket"></i>
-                    SwiftNest Solution
+                    <div class="logo-icon"><i class="fas fa-rocket"></i></div>
+                    <span>SwiftNest</span>&nbsp;Solution
                 </a>
-                <button class="mobile-menu-btn" id="mobileMenuBtn">
-                    <i class="fas fa-bars"></i>
-                </button>
                 <ul class="nav-links" id="navLinks">
                     <li><a href="index.html">Home</a></li>
                     <li><a href="about.html">About</a></li>
@@ -26,86 +24,246 @@
                     <li><a href="industries.html">Industries</a></li>
                     <li><a href="contact.html">Contact</a></li>
                 </ul>
+                <div class="nav-cta">
+                    <a href="contact.html" class="btn btn-primary btn-sm">Get Started</a>
+                </div>
+                <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle menu">
+                    <i class="fas fa-bars"></i>
+                </button>
             </nav>
         </div>
     </header>
 
     <main>
-        <div class="container">
-            <div class="page-header">
-                <h1>About SwiftNest Solution</h1>
-                <p>Learn about our mission, values, and the team behind our success</p>
-            </div>
-            <div class="about-content">
-                <div class="about-image">
-                    <img src="images/team.jpg" alt="Our Team">
+
+        <!-- ===== PAGE HERO ===== -->
+        <section class="page-hero">
+            <div class="container">
+                <div class="breadcrumb">
+                    <a href="index.html">Home</a>
+                    <i class="fas fa-chevron-right"></i>
+                    <span>About Us</span>
                 </div>
-                <div class="about-text">
-                    <h2>Driving Digital Transformation Since 2015</h2>
-                    <p>Founded in 2015, SwiftNest Solution has been at the forefront of digital innovation in Cambodia. As a leading technology partner, we've helped numerous businesses across Southeast Asia embrace digital transformation and achieve sustainable growth in the modern digital landscape.</p>
-                    
-                    <h3>Our Mission</h3>
-                    <p>To empower Cambodian businesses with innovative digital solutions that bridge the technological gap and drive sustainable growth in the digital age.</p>
-                    
-                    <h3>Our Vision</h3>
-                    <p>To become Cambodia's most trusted digital transformation partner, setting the standard for technological excellence and innovation in Southeast Asia.</p>
-                    
-                    <h3>Why Choose Us?</h3>
-                    <ul class="about-features">
-                        <li><i class="fas fa-check-circle"></i> Local expertise with global standards</li>
-                        <li><i class="fas fa-check-circle"></i> Bilingual support in Khmer and English</li>
-                        <li><i class="fas fa-check-circle"></i> Over 8 years of industry experience</li>
-                        <li><i class="fas fa-check-circle"></i> 200+ successful projects delivered</li>
-                        <li><i class="fas fa-check-circle"></i> Award-winning development team</li>
-                    </ul>
-                    
-                    <h3>Our Approach</h3>
-                    <p>We understand the unique challenges and opportunities in the Cambodian market. Our solutions are tailored to local needs while maintaining international standards. From small businesses to enterprise-level organizations, we provide scalable, sustainable, and innovative digital solutions.</p>
-                    
-                    <div class="cta-buttons">
-                        <a href="contact.html" class="btn">Contact Us</a>
-                        <a href="services.html" class="btn btn-secondary">Our Services</a>
+                <h1>About SwiftNest Solution</h1>
+                <p>Cambodia's trusted digital transformation partner — helping businesses thrive in the digital age since 2015.</p>
+            </div>
+        </section>
+
+        <!-- ===== ABOUT MAIN ===== -->
+        <section class="about-section">
+            <div class="container">
+                <div class="about-grid">
+                    <div class="about-image-wrap fade-up">
+                        <img src="images/team.jpg" alt="SwiftNest Team" onerror="this.style.background='linear-gradient(135deg,#3b82f6,#7c3aed)';this.style.minHeight='320px';this.removeAttribute('src')">
+                        <div class="about-image-badge">
+                            <span class="badge-num">2015</span>
+                            <span class="badge-text">Founded in</span>
+                        </div>
+                    </div>
+
+                    <div class="about-text fade-up fade-up-delay-1">
+                        <span class="section-label"><i class="fas fa-building"></i> Our Story</span>
+                        <h2 class="section-title">Driving Digital Transformation in Cambodia</h2>
+                        <p>Founded in 2015, SwiftNest Solution has been at the forefront of digital innovation in Cambodia. As a leading technology partner, we've helped hundreds of businesses across Southeast Asia embrace digital transformation and achieve sustainable growth in the modern digital landscape.</p>
+                        <p>We understand the unique challenges and opportunities in the Cambodian market. Our solutions are tailored to local needs while maintaining international standards — from small businesses to enterprise-level organizations.</p>
+
+                        <div class="about-info-grid">
+                            <div class="about-info-item">
+                                <h4>Founded</h4>
+                                <p>2015, Phnom Penh</p>
+                            </div>
+                            <div class="about-info-item">
+                                <h4>Specialization</h4>
+                                <p>Digital Transformation</p>
+                            </div>
+                            <div class="about-info-item">
+                                <h4>Team Size</h4>
+                                <p>30+ Professionals</p>
+                            </div>
+                            <div class="about-info-item">
+                                <h4>Languages</h4>
+                                <p>Khmer & English</p>
+                            </div>
+                        </div>
+
+                        <div class="about-features-list">
+                            <div class="about-feature">
+                                <div class="about-feature-icon"><i class="fas fa-check"></i></div>
+                                <p><strong>Local expertise with global standards</strong> — deep knowledge of Cambodia's market combined with international best practices</p>
+                            </div>
+                            <div class="about-feature">
+                                <div class="about-feature-icon"><i class="fas fa-check"></i></div>
+                                <p><strong>Bilingual support in Khmer and English</strong> — every product and interaction available in both languages</p>
+                            </div>
+                            <div class="about-feature">
+                                <div class="about-feature-icon"><i class="fas fa-check"></i></div>
+                                <p><strong>200+ successful projects delivered</strong> — proven track record across hospitality, finance, retail, and education</p>
+                            </div>
+                            <div class="about-feature">
+                                <div class="about-feature-icon"><i class="fas fa-check"></i></div>
+                                <p><strong>Award-winning development team</strong> — recognized for innovation and quality at regional tech events</p>
+                            </div>
+                        </div>
+
+                        <div class="about-actions">
+                            <a href="contact.html" class="btn btn-primary">
+                                <i class="fas fa-envelope"></i> Contact Us
+                            </a>
+                            <a href="services.html" class="btn btn-outline">
+                                <i class="fas fa-th-large"></i> Our Services
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
+
+        <!-- ===== STATS ===== -->
+        <section class="about-stats-section">
+            <div class="container">
+                <div class="section-header centered">
+                    <span class="section-label"><i class="fas fa-trophy"></i> Our Impact</span>
+                    <h2 class="section-title fade-up">Numbers That Speak</h2>
+                </div>
+                <div class="about-stats-grid">
+                    <div class="about-stat-card fade-up">
+                        <div class="stat-icon"><i class="fas fa-project-diagram"></i></div>
+                        <span class="stat-num" data-target="200" data-suffix="+">200+</span>
+                        <span class="stat-desc">Projects Completed</span>
+                    </div>
+                    <div class="about-stat-card fade-up fade-up-delay-1">
+                        <div class="stat-icon"><i class="fas fa-building"></i></div>
+                        <span class="stat-num" data-target="50" data-suffix="+">50+</span>
+                        <span class="stat-desc">Business Clients</span>
+                    </div>
+                    <div class="about-stat-card fade-up fade-up-delay-2">
+                        <div class="stat-icon"><i class="fas fa-calendar-alt"></i></div>
+                        <span class="stat-num" data-target="8" data-suffix="+">8+</span>
+                        <span class="stat-desc">Years of Experience</span>
+                    </div>
+                    <div class="about-stat-card fade-up fade-up-delay-3">
+                        <div class="stat-icon"><i class="fas fa-star"></i></div>
+                        <span class="stat-num" data-target="98" data-suffix="%">98%</span>
+                        <span class="stat-desc">Client Satisfaction</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== MISSION / VISION / VALUES ===== -->
+        <section class="values-section">
+            <div class="container">
+                <div class="section-header centered">
+                    <span class="section-label"><i class="fas fa-compass"></i> Our Foundation</span>
+                    <h2 class="section-title fade-up">Mission, Vision & Values</h2>
+                    <p class="section-subtitle fade-up fade-up-delay-1">The principles that guide everything we build and every client relationship we nurture.</p>
+                </div>
+                <div class="values-grid">
+                    <div class="value-card fade-up">
+                        <h3><i class="fas fa-bullseye"></i> Our Mission</h3>
+                        <p>To empower Cambodian businesses with innovative digital solutions that bridge the technological gap and drive sustainable growth in the digital age. We make world-class technology accessible to every Cambodian entrepreneur.</p>
+                    </div>
+                    <div class="value-card fade-up fade-up-delay-1">
+                        <h3><i class="fas fa-eye"></i> Our Vision</h3>
+                        <p>To become Cambodia's most trusted digital transformation partner, setting the standard for technological excellence and innovation in Southeast Asia — while keeping the local community at the heart of everything we do.</p>
+                    </div>
+                    <div class="value-card fade-up fade-up-delay-2">
+                        <h3><i class="fas fa-heart"></i> Our Values</h3>
+                        <p>We believe in innovation with integrity, local pride with global mindset, and long-term partnerships over one-off transactions. Every line of code we write is guided by respect for our clients' trust and Cambodia's future.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== CTA ===== -->
+        <section class="cta-section">
+            <div class="container">
+                <div class="cta-inner">
+                    <h2>Let's Build Something Together</h2>
+                    <p>Ready to transform your business? Our team is here to understand your needs and deliver the perfect digital solution.</p>
+                    <div class="cta-pills">
+                        <div class="cta-pill"><i class="fas fa-check-circle"></i> Free Consultation</div>
+                        <div class="cta-pill"><i class="fas fa-check-circle"></i> No Commitment Required</div>
+                        <div class="cta-pill"><i class="fas fa-check-circle"></i> Quick Response</div>
+                    </div>
+                    <div class="cta-actions">
+                        <a href="contact.html" class="btn btn-white btn-lg">
+                            <i class="fas fa-calendar-check"></i> Schedule a Meeting
+                        </a>
+                        <a href="services.html" class="btn btn-ghost btn-lg">
+                            <i class="fas fa-th-large"></i> View Services
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
     </main>
 
     <footer>
         <div class="container">
-            <div class="footer-content">
-                <div class="footer-section">
-                    <h3>SwiftNest Solution</h3>
-                    <p>Transforming businesses through innovative digital solutions and technology services.</p>
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="index.html" class="logo">
+                        <div class="logo-icon"><i class="fas fa-rocket"></i></div>
+                        <span>SwiftNest</span>&nbsp;Solution
+                    </a>
+                    <p>Transforming Cambodian businesses through innovative digital solutions and technology services since 2015.</p>
                     <div class="social-links">
-                        <a href="#"><i class="fab fa-facebook"></i></a>
-                        <a href="#"><i class="fab fa-twitter"></i></a>
-                        <a href="#"><i class="fab fa-linkedin"></i></a>
-                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
                     </div>
                 </div>
-                <div class="footer-section">
-                    <h3>Quick Links</h3>
-                    <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="services.html">Services</a></li>
-                        <li><a href="industries.html">Industries</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                    </ul>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <div class="footer-links">
+                        <a href="index.html">Home</a>
+                        <a href="about.html">About Us</a>
+                        <a href="services.html">Our Services</a>
+                        <a href="industries.html">Industries</a>
+                        <a href="contact.html">Contact</a>
+                    </div>
                 </div>
-                <div class="footer-section">
-                    <h3>Contact Info</h3>
-                    <p><i class="fas fa-phone"></i> +855 88 21 75 436</p>
-                    <p><i class="fas fa-envelope"></i> info@swiftnest.com.kh</p>
-                    <p><i class="fas fa-location-dot"></i> Street 598, Sangkat Tuol Sangke<br>Khan Russey Keo, Phnom Penh, Cambodia</p>
+                <div class="footer-col">
+                    <h4>Services</h4>
+                    <div class="footer-links">
+                        <a href="services.html">Mobile Apps</a>
+                        <a href="services.html">E-Commerce</a>
+                        <a href="services.html">ERP Systems</a>
+                        <a href="services.html">Digital Banking</a>
+                        <a href="services.html">IT Infrastructure</a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>Contact Info</h4>
+                    <div class="footer-contact-list">
+                        <div class="footer-contact-item">
+                            <i class="fas fa-phone"></i>
+                            <span>+855 88 21 75 436</span>
+                        </div>
+                        <div class="footer-contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>info@swiftnest.com.kh</span>
+                        </div>
+                        <div class="footer-contact-item">
+                            <i class="fas fa-location-dot"></i>
+                            <span>Street 598, Sangkat Tuol Sangke, Khan Russey Keo, Phnom Penh, Cambodia</span>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="footer-bottom">
                 <p>&copy; 2025 SwiftNest Solution. All rights reserved.</p>
+                <div class="footer-bottom-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
             </div>
         </div>
     </footer>
+
     <script src="js/script.js"></script>
 </body>
 </html>

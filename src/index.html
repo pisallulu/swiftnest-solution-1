@@ -3,22 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SwiftNest Solution | Home</title>
+    <title>SwiftNest Solution | Digital Innovation for Cambodia</title>
+    <meta name="description" content="SwiftNest Solution provides cutting-edge technology services to help businesses in Cambodia thrive in the digital age.">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-    
+
     <header>
         <div class="container">
             <nav class="navbar">
                 <a href="index.html" class="logo">
-                    <i class="fas fa-rocket"></i>
-                    SwiftNest Solution
+                    <div class="logo-icon"><i class="fas fa-rocket"></i></div>
+                    <span>SwiftNest</span>&nbsp;Solution
                 </a>
-                <button class="mobile-menu-btn" id="mobileMenuBtn">
-                    <i class="fas fa-bars"></i>
-                </button>
                 <ul class="nav-links" id="navLinks">
                     <li><a href="index.html">Home</a></li>
                     <li><a href="about.html">About</a></li>
@@ -26,65 +24,334 @@
                     <li><a href="industries.html">Industries</a></li>
                     <li><a href="contact.html">Contact</a></li>
                 </ul>
+                <div class="nav-cta">
+                    <a href="contact.html" class="btn btn-primary btn-sm">Get Started</a>
+                </div>
+                <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle menu">
+                    <i class="fas fa-bars"></i>
+                </button>
             </nav>
         </div>
     </header>
 
     <main>
-        <section id="home">
+
+        <!-- ===== HERO ===== -->
+        <section class="hero-section">
+            <div class="hero-bg-glow blue"></div>
+            <div class="hero-bg-glow purple"></div>
+            <div class="hero-bg-glow cyan"></div>
             <div class="container">
-                <div class="hero">
+                <div class="hero-grid">
                     <div class="hero-content">
-                        <h1>Transform Your Business with Digital Innovation</h1>
-                        <p>SwiftNest Solution provides cutting-edge technology services to help businesses thrive in the digital age.</p>
-                        <div class="hero-buttons">
-                            <a href="services.html" class="btn">Our Services</a>
-                            <a href="contact.html" class="btn btn-primary">Get Started</a>
+                        <div class="hero-badge">
+                            <span class="dot"></span>
+                            Cambodia's Leading Tech Partner
+                        </div>
+                        <h1 class="hero-title">
+                            Transform Your Business with
+                            <span class="highlight">Digital Innovation</span>
+                        </h1>
+                        <p class="hero-desc">
+                            SwiftNest Solution delivers cutting-edge technology services — from mobile apps and e-commerce to ERP systems — tailored for Cambodia's growing digital economy.
+                        </p>
+                        <div class="hero-actions">
+                            <a href="services.html" class="btn btn-primary btn-lg">
+                                <i class="fas fa-th-large"></i> Explore Services
+                            </a>
+                            <a href="contact.html" class="btn btn-ghost btn-lg">
+                                <i class="fas fa-calendar-check"></i> Free Consultation
+                            </a>
+                        </div>
+                        <div class="hero-stats">
+                            <div class="hero-stat">
+                                <span class="hero-stat-num">200+</span>
+                                <span class="hero-stat-label">Projects Delivered</span>
+                            </div>
+                            <div class="hero-stat">
+                                <span class="hero-stat-num">8+</span>
+                                <span class="hero-stat-label">Years Experience</span>
+                            </div>
+                            <div class="hero-stat">
+                                <span class="hero-stat-num">98%</span>
+                                <span class="hero-stat-label">Client Satisfaction</span>
+                            </div>
                         </div>
                     </div>
-                    <div class="hero-image">
-                        <img src="images/hero.jpg" alt="Digital Innovation">
+
+                    <div class="hero-visual">
+                        <div class="hero-card-stack">
+                            <div class="hero-float-badge top-left">
+                                <div class="hero-float-icon blue"><i class="fas fa-shield-halved"></i></div>
+                                <div class="hero-float-text">
+                                    <strong>Secure & Reliable</strong>
+                                    <span>Enterprise-grade security</span>
+                                </div>
+                            </div>
+
+                            <div class="hero-main-card">
+                                <div class="hero-card-header">
+                                    <div class="hero-card-icon"><i class="fas fa-rocket"></i></div>
+                                    <div>
+                                        <div class="hero-card-title">Our Core Services</div>
+                                        <div class="hero-card-sub">12 solutions available</div>
+                                    </div>
+                                </div>
+                                <div class="hero-services-list">
+                                    <div class="hero-service-item">
+                                        <div class="hero-service-left">
+                                            <span class="hero-service-dot" style="background:#D97706"></span>
+                                            <span class="hero-service-name">Mobile App Development</span>
+                                        </div>
+                                        <span class="hero-service-tag">Popular</span>
+                                    </div>
+                                    <div class="hero-service-item">
+                                        <div class="hero-service-left">
+                                            <span class="hero-service-dot" style="background:#0D9488"></span>
+                                            <span class="hero-service-name">E-Commerce Solutions</span>
+                                        </div>
+                                        <span class="hero-service-tag">Popular</span>
+                                    </div>
+                                    <div class="hero-service-item">
+                                        <div class="hero-service-left">
+                                            <span class="hero-service-dot" style="background:#F59E0B"></span>
+                                            <span class="hero-service-name">Digital Banking & FinTech</span>
+                                        </div>
+                                        <span class="hero-service-tag" style="background:rgba(13,148,136,0.2);color:#5EEAD4">New</span>
+                                    </div>
+                                    <div class="hero-service-item">
+                                        <div class="hero-service-left">
+                                            <span class="hero-service-dot" style="background:#16A34A"></span>
+                                            <span class="hero-service-name">Business Management ERP</span>
+                                        </div>
+                                        <span class="hero-service-tag">Popular</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="hero-float-badge bottom-right">
+                                <div class="hero-float-icon green"><i class="fas fa-check-circle"></i></div>
+                                <div class="hero-float-text">
+                                    <strong>50+ Happy Clients</strong>
+                                    <span>Across Cambodia</span>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
+
+        <!-- ===== STATS BAR ===== -->
+        <div class="stats-bar">
+            <div class="container">
+                <div class="stats-bar-inner">
+                    <div class="stat-item fade-up">
+                        <span class="stat-number" data-target="200" data-suffix="+">200+</span>
+                        <span class="stat-label">Projects Completed</span>
+                    </div>
+                    <div class="stat-item fade-up fade-up-delay-1">
+                        <span class="stat-number" data-target="50" data-suffix="+">50+</span>
+                        <span class="stat-label">Business Clients</span>
+                    </div>
+                    <div class="stat-item fade-up fade-up-delay-2">
+                        <span class="stat-number" data-target="8" data-suffix="+">8+</span>
+                        <span class="stat-label">Years in Cambodia</span>
+                    </div>
+                    <div class="stat-item fade-up fade-up-delay-3">
+                        <span class="stat-number" data-target="98" data-suffix="%">98%</span>
+                        <span class="stat-label">Client Satisfaction</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ===== SERVICES PREVIEW ===== -->
+        <section class="services-preview">
+            <div class="container">
+                <div class="section-header centered">
+                    <span class="section-label"><i class="fas fa-th-large"></i> What We Do</span>
+                    <h2 class="section-title fade-up">Comprehensive Digital Solutions</h2>
+                    <p class="section-subtitle fade-up fade-up-delay-1">From mobile apps to enterprise systems, we provide end-to-end technology services tailored for Cambodia's unique market.</p>
+                </div>
+
+                <div class="services-grid">
+                    <div class="service-card fade-up">
+                        <div class="service-card-content">
+                            <div class="service-icon"><i class="fas fa-mobile-alt"></i></div>
+                            <h3>Mobile App Development</h3>
+                            <p>Custom Android & iOS applications with Khmer language support and local payment integration for Cambodia's mobile-first users.</p>
+                            <div class="service-card-footer">
+                                <span class="service-category-tag">Technology</span>
+                                <a href="services.html" class="service-link">Learn more <i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="service-card fade-up fade-up-delay-1">
+                        <div class="service-card-content">
+                            <div class="service-icon"><i class="fas fa-shopping-cart"></i></div>
+                            <h3>E-Commerce Solutions</h3>
+                            <p>Full online store setup with ABA, Wing & Bakong QR payment support, inventory management, and delivery tracking.</p>
+                            <div class="service-card-footer">
+                                <span class="service-category-tag">Business</span>
+                                <a href="services.html" class="service-link">Learn more <i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="service-card fade-up fade-up-delay-2">
+                        <div class="service-card-content">
+                            <div class="service-icon"><i class="fas fa-chart-line"></i></div>
+                            <h3>Business Management ERP</h3>
+                            <p>Custom ERP and POS systems with local tax compliance, bilingual interfaces, and real-time analytics for Cambodian SMEs.</p>
+                            <div class="service-card-footer">
+                                <span class="service-category-tag">Business</span>
+                                <a href="services.html" class="service-link">Learn more <i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div style="text-align:center; margin-top:40px;" class="fade-up">
+                    <a href="services.html" class="btn btn-outline">
+                        View All 12 Services <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== WHY CHOOSE US ===== -->
+        <section class="features-section">
+            <div class="container">
+                <div class="section-header centered">
+                    <span class="section-label"><i class="fas fa-star"></i> Why SwiftNest</span>
+                    <h2 class="section-title fade-up">Built for Cambodia's Market</h2>
+                    <p class="section-subtitle fade-up fade-up-delay-1">We combine local expertise with global best practices to deliver solutions that truly work in the Cambodian context.</p>
+                </div>
+
+                <div class="features-grid">
+                    <div class="feature-card fade-up">
+                        <div class="feature-icon blue"><i class="fas fa-map-marker-alt"></i></div>
+                        <h3>Local Market Expertise</h3>
+                        <p>Deep understanding of Cambodia's business landscape, regulations, and consumer behavior built over 8+ years of local operation.</p>
+                    </div>
+                    <div class="feature-card fade-up fade-up-delay-1">
+                        <div class="feature-icon purple"><i class="fas fa-language"></i></div>
+                        <h3>Bilingual Support</h3>
+                        <p>Full Khmer and English language support across all products, ensuring your solution reaches every Cambodian customer.</p>
+                    </div>
+                    <div class="feature-card fade-up fade-up-delay-2">
+                        <div class="feature-icon cyan"><i class="fas fa-qrcode"></i></div>
+                        <h3>Local Payment Ready</h3>
+                        <p>Pre-built integrations with Bakong, ABA PAY, Wing, Pi Pay, and other popular Cambodian payment platforms out of the box.</p>
+                    </div>
+                    <div class="feature-card fade-up fade-up-delay-3">
+                        <div class="feature-icon green"><i class="fas fa-headset"></i></div>
+                        <h3>Dedicated Support</h3>
+                        <p>Responsive local support team available during Cambodian business hours, with ongoing maintenance and updates included.</p>
+                    </div>
+                    <div class="feature-card fade-up fade-up-delay-4">
+                        <div class="feature-icon orange"><i class="fas fa-expand-arrows-alt"></i></div>
+                        <h3>Scalable Architecture</h3>
+                        <p>Solutions designed to grow with your business — from a 5-person startup to a 500-branch enterprise chain.</p>
+                    </div>
+                    <div class="feature-card fade-up fade-up-delay-5">
+                        <div class="feature-icon red"><i class="fas fa-shield-alt"></i></div>
+                        <h3>Security Compliant</h3>
+                        <p>All products follow international security standards and comply with Cambodia's data protection guidelines and NBC regulations.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== CTA ===== -->
+        <section class="cta-section">
+            <div class="container">
+                <div class="cta-inner">
+                    <h2>Ready to Go Digital?</h2>
+                    <p>Join hundreds of successful businesses in Cambodia that trust SwiftNest Solution to power their digital transformation.</p>
+                    <div class="cta-pills">
+                        <div class="cta-pill"><i class="fas fa-check-circle"></i> Free Initial Consultation</div>
+                        <div class="cta-pill"><i class="fas fa-check-circle"></i> Bilingual Team</div>
+                        <div class="cta-pill"><i class="fas fa-check-circle"></i> Flexible Payment</div>
+                    </div>
+                    <div class="cta-actions">
+                        <a href="contact.html" class="btn btn-white btn-lg">
+                            <i class="fas fa-calendar-check"></i> Schedule a Consultation
+                        </a>
+                        <a href="tel:+855882175436" class="btn btn-ghost btn-lg">
+                            <i class="fas fa-phone"></i> +855 88 21 75 436
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
     </main>
 
     <footer>
         <div class="container">
-            <div class="footer-content">
-                <div class="footer-section">
-                    <h3>SwiftNest Solution</h3>
-                    <p>Transforming businesses through innovative digital solutions and technology services.</p>
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="index.html" class="logo">
+                        <div class="logo-icon"><i class="fas fa-rocket"></i></div>
+                        <span>SwiftNest</span>&nbsp;Solution
+                    </a>
+                    <p>Transforming Cambodian businesses through innovative digital solutions and technology services since 2015.</p>
                     <div class="social-links">
-                        <a href="#"><i class="fab fa-facebook"></i></a>
-                        <a href="#"><i class="fab fa-twitter"></i></a>
-                        <a href="#"><i class="fab fa-linkedin"></i></a>
-                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
                     </div>
                 </div>
-                <div class="footer-section">
-                    <h3>Quick Links</h3>
-                    <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="services.html">Services</a></li>
-                        <li><a href="industries.html">Industries</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                    </ul>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <div class="footer-links">
+                        <a href="index.html">Home</a>
+                        <a href="about.html">About Us</a>
+                        <a href="services.html">Our Services</a>
+                        <a href="industries.html">Industries</a>
+                        <a href="contact.html">Contact</a>
+                    </div>
                 </div>
-                <div class="footer-section">
-                    <h3>Contact Info</h3>
-                    <p><i class="fas fa-phone"></i> +855 88 21 75 436</p>
-                    <p><i class="fas fa-envelope"></i> info@swiftnest.com.kh</p>
-                    <p><i class="fas fa-location-dot"></i> Street 598, Sangkat Tuol Sangke<br>Khan Russey Keo, Phnom Penh, Cambodia</p>
+                <div class="footer-col">
+                    <h4>Services</h4>
+                    <div class="footer-links">
+                        <a href="services.html">Mobile Apps</a>
+                        <a href="services.html">E-Commerce</a>
+                        <a href="services.html">ERP Systems</a>
+                        <a href="services.html">Digital Banking</a>
+                        <a href="services.html">IT Infrastructure</a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>Contact Info</h4>
+                    <div class="footer-contact-list">
+                        <div class="footer-contact-item">
+                            <i class="fas fa-phone"></i>
+                            <span>+855 88 21 75 436</span>
+                        </div>
+                        <div class="footer-contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>info@swiftnest.com.kh</span>
+                        </div>
+                        <div class="footer-contact-item">
+                            <i class="fas fa-location-dot"></i>
+                            <span>Street 598, Sangkat Tuol Sangke, Khan Russey Keo, Phnom Penh, Cambodia</span>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="footer-bottom">
                 <p>&copy; 2025 SwiftNest Solution. All rights reserved.</p>
+                <div class="footer-bottom-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
             </div>
         </div>
     </footer>
+
     <script src="js/script.js"></script>
 </body>
 </html>
