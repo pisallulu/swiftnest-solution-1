@@ -2,7 +2,7 @@
 
 A responsive multi-page website for **SwiftNest Solution**, a digital technology company providing IT services to businesses in Cambodia.
 
-Live demo: [swiftnest-solution-1.vercel.app](https://swiftnest-solution-1.vercel.app)
+Live demo: [swiftnest-solution-1.vercel.app](https://swiftnestsolution.vercel.app)
 
 ---
 
